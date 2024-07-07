@@ -1,0 +1,41 @@
+{
+  "name": "01basicereact",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",            // devlepoment enverment mai projects ko chala na ka liye use haata hai 
+    "build": "react-scripts build", //   browesr ko react samjh nhi  aati tho its help ho do that brower understant css html  &js 
+    "test": "react-scripts test",// test cases run kr na mai use aata hai 
+    "eject": "react-scripts eject" // use jab hum react ko apni application se eject kr lete hai (ki ab mujhe itna he kaaam hai react ka ab kuch or use krunga )
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+    // it is use for jab kuch red line aaja ti hai error or ye bata ta hai ji or acha kro sak ta ho tum use 
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ], 
+    // kon se browser pr chale ga ya nhi chale ga ye bata ta hai 
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ] 
+    // ye version support kr ta hai 
+  }
+}
