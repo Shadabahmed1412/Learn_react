@@ -1,0 +1,45 @@
+
+
+
+// ye hamara banaya huah compnent hai chai.js name se 
+
+function Chai(){
+    return(
+        <h2>chai with shadab</h2>
+    )
+
+}
+export default Chai
+
+
+
+//  we make a component (Chai) or fir hame ise export kr na hota hai app.js mai aagar hum react use kr rahe h or app.jsx mai aagar ham vite use kr rahe hai 
+// app mai import bhi krta hota hai jo function bana ya hai use 
+
+// rules  to know (important )
+
+// 1) function name first letter in upper case (uaka bina output nhi aayega )
+// 2) everey where use same thing wheenever we use that function name 
+
+
+
+
+
+
+
+//  ye App.js hai  
+
+
+import Chai from "./chai";
+
+
+function App() {
+  return (
+    <>
+   <Chai/>
+   <h2>chai aur react</h2>
+   </>
+  );
+}
+
+export default App;
